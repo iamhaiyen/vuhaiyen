@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0;}
+body{ 
+/*    background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");     
+    background-repeat:no-repeat; 
+    background-position:center; */
+    background-color: #f2f2f2;
+    font-family: "Helvetica", Times, serif;
+}
+label.error{
+    color: red;
+}
+.login{
+    border: 1px solid darkgrey;
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 20px 20px 30px;
+    box-shadow: 5px 8px 8px #888888;
+}
+.labelLogin{
+    margin: 15px 0 0 5px; 
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-login{
+    margin: 20px 25% 10px 25%;
+    font-weight: bold;
+    width: 50%;
+    background-color: gray;
+    border-color: gray;
+}
+.btn-login:hover{
+    font-weight: bold;
+    background-color: darkslategray;
+    border-color: darkslategray;
+}
+.txtDangKy{
+    float: right;    
+    color: gray;
+    font-size: 14px;
+}
+.txtLostPassword{
+    color: gray;   
+    font-size: 14px;
+}
+.txtDangKy:hover, .txtLostPassword:hover{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+}
+div.checkbox-custom{
+    color: gray;
+    margin: 0 25% 10px 25%;
+    width: 50%;
+}
+.btn-facebook{
+    width: 45%;
+}
+.btn-google{
+    width: 45%;
+    float: right;
+}
+.seperator strong {
+    background: rgba(255, 255, 255, 0.15);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+}
+.txtFoot{
+    font-size: 12.5px;
+    margin: auto;
+}
+
+#search{
+    width: auto;
+    border: 2px solid gainsboro;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    height: 35px;
+    padding: 0px;
+}
+#search input[type='search'] {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    width: 100%;
+    height: 29px;
+    cursor: text;
+    padding-left: 1px;
+    background-color: #F2F2F2;
+}
+
+#search #select-box{
+    border-left: 2px solid gainsboro;
+}
+#search #select-box select{
+    border: none;
+    height: 30px;
+    width: 100%;
+    background: none;
+}
+#search #btnSearch{
+    height: 30.5px;
+    width: 100%;
+    border: none; 
+    font-size: 18px;
+}
